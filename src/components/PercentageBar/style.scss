@@ -1,0 +1,27 @@
+.percentage-bar{
+    &__left{
+        &::after{
+            content: "";
+            height: 2px;
+            position: absolute;
+            bottom: 0px;
+            right: 0px;
+            left: 0px;
+            // background-color: #00B860;
+            @apply bg-green;
+        }
+    }
+
+    &__right{
+        &::after{
+            content: "";
+            height: 2px;
+            position: absolute;
+            bottom: 0px;
+            right: 0px;
+            left: 0px;
+            // background-color: #FE3B3F;
+            @apply bg-red
+        }
+    }
+}

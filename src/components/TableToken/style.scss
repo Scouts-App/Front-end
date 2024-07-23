@@ -1,0 +1,27 @@
+.table-token {
+  @apply text-sm-body;
+  .ant-table-thead {
+    .ant-table-cell:nth-child(2) {
+      padding: 8px 0px 8px 0px;
+    }
+  }
+  .ant-table-column-has-sorters {
+    &:hover {
+      .ant-table-column-title {
+        *{
+            color: #333333 !important;
+        }
+       
+      }
+    }
+
+    .ant-table-column-sorter {
+      .ant-table-column-sorter-inner {
+        .active {
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+

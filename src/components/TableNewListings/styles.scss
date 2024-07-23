@@ -1,0 +1,7 @@
+.table-newlistings {
+  .segment {
+    .ant-segmented-item {
+      @apply min-w-[140px] #{!important};
+    }
+  }
+}

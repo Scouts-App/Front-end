@@ -1,0 +1,9 @@
+.textfield{
+    background-color: #222425 !important;
+    padding: 8px 10px !important;
+    color: white !important;
+    border: 1px solid #969A9C !important;
+    &.ant-input-status-error{
+        border-color: #FA0513 !important;
+    }
+}

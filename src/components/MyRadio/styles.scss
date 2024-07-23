@@ -1,0 +1,16 @@
+.custom-radio-color {
+  .ant-radio-inner {
+    @apply border-2 border-neutral-50 bg-alpha-neutral #{!important};
+    &::after {
+      background-color: inherit !important;
+    }
+  }
+  .ant-radio-checked {
+    .ant-radio-inner {
+      @apply border-2 border-neutral-80 bg-status-success #{!important};
+      &::after {
+        background-color: inherit !important;
+      }
+    }
+  }
+}

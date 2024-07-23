@@ -1,0 +1,146 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a,
+li {
+  list-style: none;
+  text-decoration: none;
+}
+
+.bg-img-home {
+  background-image: url("/img/bg-home.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top right;
+}
+
+.text-gradient-primary {
+  background: linear-gradient(90deg, #ff57c1 -818.19%, #bc30e3 540.96%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.ant-switch.ant-switch-checked {
+  background-color: #ff57c1 !important;
+}
+
+.ant-switch {
+  background: #46484a !important;
+  border: 1px solid #969A9C !important;
+}
+.ant-modal-root .ant-modal-content {
+  border-radius: 15px !important;
+  border: 1px solid #575A5B !important;
+  background: #222425 !important;
+  color: white;
+}
+
+.ant-modal-root .ant-modal-content .ant-modal-header .ant-modal-title {
+  background: #222425 !important;
+}
+
+.ant-modal-root .ant-modal-content .ant-modal-close-x span svg {
+  color: #969A9C;
+}
+
+.modal-setting {
+  width: 386px !important;
+}
+
+.modal-setting .ant-modal-content {
+  width: 386px;
+}
+
+.modal-setting .ant-modal-content .ant-modal-footer {
+  display: none;
+}
+
+.ant-select .ant-select-selector {
+  background: transparent !important;
+  height: 40px !important;
+  color: white !important;
+  border: 1px solid #969A9C !important;
+}
+
+.ant-select .ant-select-arrow svg {
+  margin-top: 4px;
+  color: #969A9C;
+}
+
+.ant-input-number {
+  border: 1px solid #969A9C !important;
+
+}
+
+.ant-input-number {
+  background: transparent !important;
+  height: 40px !important;
+  color: white !important;
+}
+
+.ant-input-number .ant-input-number-input-wrap input {
+  color: white !important;
+  height: 40px !important;
+}
+
+.ant-radio-wrapper {
+  color: #969A9C !important;
+  font-size: 12px !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  line-height: 20px !important;
+  /* 166.667% */
+}
+
+
+.ant-radio-wrapper.ant-radio-wrapper-checked {
+  background: linear-gradient(90deg, #ff57c1 -818.19%, #bc30e3 540.96%) !important;
+  background-clip: text !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+.ant-picker {
+  background: transparent !important;
+  height: 40px !important;
+  color: #969A9C !important;
+  border: 1px solid #969A9C !important;
+}
+
+
+.ant-picker .ant-picker-input input {
+  color: #969A9C !important;
+  font-feature-settings: 'case' on !important;
+  font-size: 11px !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  line-height: 24px !important;
+  /* 218.182% */
+}
+
+.ant-picker .ant-picker-input input::placeholder {
+  color: #969A9C !important;
+  font-feature-settings: 'case' on !important;
+  font-size: 11px !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  line-height: 24px !important;
+  /* 218.182% */
+}
+
+.ant-picker .ant-picker-input .ant-picker-suffix svg {
+  color: #969A9C !important;
+}
